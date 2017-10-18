@@ -1,3 +1,3 @@
-# cis-compliance-control-repo
+# PE Demo Windows
 
-A Control repo for CIS Compliance
+A Control repo for PE Demo Windows
