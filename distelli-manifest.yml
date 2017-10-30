@@ -1,4 +1,4 @@
-petersouter:petems-windows-demo-control-repo:
+petersouter/petems-windows-demo-control-repo:
   Build:
     - gem install bundler --no-rdoc --no-ri
     - bundle install
