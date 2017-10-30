@@ -2,7 +2,7 @@
 class profile::base::ntp {
 
   class { '::time':
-    servers => ['time.nist.gov', 'north-america.pool.ntp.org'],
+    servers => ['0.uk.pool.ntp.org', 'north-america.pool.ntp.org'],
   }
 
 }
