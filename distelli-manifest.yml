@@ -1,5 +1,8 @@
 petersouter/petems-windows-demo-control-repo:
   Build:
+    - source ~/.rvm/scripts/rvm
+    - rvm install ruby-2.3.1
+    - rvm use 2.3.1
     - gem install bundler --no-rdoc --no-ri
     - bundle install
     - bundle exec rake syntax
@@ -9,5 +12,8 @@ petersouter/petems-windows-demo-control-repo:
   PreInstall:
     - sudo apt-get -y update
     - sudo apt-get -y install cmake
+    - source ~/.rvm/scripts/rvm
+    - rvm install ruby-2.3.1
+    - rvm use 2.3.1
   Env:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES: 'true'
