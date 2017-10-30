@@ -1,0 +1,13 @@
+ruby:2.3.1:
+  Build:
+    - gem install bundler --no-rdoc --no-ri
+    - bundle install
+    - bundle exec rake syntax
+    - bundle exec rake lint
+  PkgInclude:
+    - '*'
+  PreInstall:
+    - sudo apt-get -y update
+    - sudo apt-get -y install cmake
+  Env:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES: true
