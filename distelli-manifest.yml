@@ -1,4 +1,4 @@
-ruby:2.3.1:
+petersouter:petems-windows-demo-control-repo:
   Build:
     - gem install bundler --no-rdoc --no-ri
     - bundle install
