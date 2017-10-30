@@ -1,4 +1,4 @@
-petersouter:petems-windows-demo-control-repo:
+petersouter/petems-windows-demo-control-repo:
   Build:
     - gem install bundler --no-rdoc --no-ri
     - bundle install
@@ -10,4 +10,4 @@ petersouter:petems-windows-demo-control-repo:
     - sudo apt-get -y update
     - sudo apt-get -y install cmake
   Env:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES: 'true'
